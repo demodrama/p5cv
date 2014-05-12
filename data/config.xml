@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <window width="800" height="600" resizable="true" offsetX="100" offsetY="50"/>
+  <grabbers>
+    <grabber id="tl" label="Origin" x="546" y="352"/>
+    <grabber id="tr" label="X axis" x="52" y="373"/>
+    <grabber id="br" label="Corner" x="47" y="224"/>
+    <grabber id="bl" label="Y axis" x="514" y="174"/>
+  </grabbers>
+  <startup showHelpers="false" showInfos="true" showGrid="true" showDrawingLines="true" showLabels="false" showFeedback="true" miniMode="false" autoCalibrate="false"/>
+  <feedback width="200" height="150"/>
+  <kinect mirror="false" enableRGB="false"/>
+  <detection minDistance="16" maxDistance="151" minBlobSize="74" maxBlobSize="1210" swapXY="false" invertX="true" invertY="false" nonLinear="false" minHandSize="730" maxHandSize="14870" minDistanceTouch="28"/>
+  <tuio address="127.0.0.1" port="3333"/>
+</data>
